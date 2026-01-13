@@ -26,7 +26,7 @@ public class conectaDAO {
         Connection conn = null;
         
         try {
-            String url = "jdbc:mysql://localhost:3306/leilao_db?user=root&password=19042005Ke";
+            String url = "jdbc:mysql://localhost:3306/leilao_db1?user=root&password=19042005Ke";
             conn = DriverManager.getConnection(url);
             System.out.println("Conexão com banco estabelecida!");
             
